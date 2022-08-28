@@ -139,6 +139,23 @@ spec:
 ![Screen Shot 2022-08-28 at 3 08 16 PM](https://user-images.githubusercontent.com/13468708/187091833-440f86fa-c2b0-4d9c-9e03-78df401f2c55.png)
 
 
-If you are like me and don't trust anything that runs as a background service within a black box...
-You are probably going to be interested in my remote solution to view local services publically
+#### Next start the mongo-express-service up!
+`minikube service mongo-express-service`
+
+#### If you are using local and running local and serving local head to the address specified in the URL
+-ScreenShot below-
+
+
+![Screen Shot 2022-08-28 at 6 23 40 PM](https://user-images.githubusercontent.com/13468708/187096854-ab1d3ff3-7695-4168-b213-b5bfa022ffbe.png)
+
+
+
+
+However if you are like me and interested in my remote solution to view local services publically
 https://github.com/Hawaiideveloper/k8s-minikube-fusion-mongodbExpress/issues/1
+
+###### See unique URL and follow the instructions within issue 1 for details on how to get this application served remotely aka publically.
+
+![Screen Shot 2022-08-28 at 6 20 45 PM](https://user-images.githubusercontent.com/13468708/187096922-eeafcdae-8b0c-4a1d-9f4d-d1c1146c70b0.png)
+
+
