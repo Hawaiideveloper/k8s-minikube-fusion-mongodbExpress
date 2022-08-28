@@ -137,3 +137,8 @@ spec:
 -see screen shot-
 
 ![Screen Shot 2022-08-28 at 3 08 16 PM](https://user-images.githubusercontent.com/13468708/187091833-440f86fa-c2b0-4d9c-9e03-78df401f2c55.png)
+
+
+If you are like me and don't trust anything that runs as a background service within a black box...
+You are probably going to be interested in my remote solution to view local services publically
+https://github.com/Hawaiideveloper/k8s-minikube-fusion-mongodbExpress/issues/1
