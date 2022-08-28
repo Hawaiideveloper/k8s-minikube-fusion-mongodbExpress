@@ -1,7 +1,16 @@
 ## Contains [env variables](https://hub.docker.com/_/mongo ) for the mongodb container
 ### Values in the mongo-secret.yaml below in data must be in base64 encoded, the file can not have comments.
-## If you have comments in your secret file you might get the message below see issue 1:
+## If you have comments in your secret file or the file is not properly formatted you may receive the error below:
+
+"no objects passed to apply"
 - screen shot below -
+
+
+![Screen Shot 2022-08-28 at 1 01 11 PM](https://user-images.githubusercontent.com/13468708/187092064-f4189fae-0d61-4d41-9647-270e2cfae690.png)
+
+
+
+
 #### Command used to retrieve base64 is: 
 ```echo -n 'someValue' | base64```
 
