@@ -1,0 +1,56 @@
+    1  ip add sh | grep 192
+    2  sudo echo  “# Adding Virtualbox into the Sammy repo of /etc/apt/sources.list” >> /etc/apt/sources.list | tee -a
+    3  nano /etc/apt/sources.list
+    4  sudo nano /etc/apt/sources.list
+    5  sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib" >> /etc/apt/sources.list'
+    6  cat /etc/apt/sources.list
+    7  nano /etc/apt/sources.list
+    8  sudo nano /etc/apt/sources.list
+    9  wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+   10  sudo apt-get update
+   11  sudo nano /etc/apt/sources.list
+   12  sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib" >> /etc/apt/sources.list'
+   13  sudo apt-get update
+   14  wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+   15  sudo apt-get update
+   16  sudo apt-get install virtualbox-6.1
+   17  sudo apt-get install virtualbox-6.1 -y
+   18  minikube start --driver=virtualbox
+   19  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   20  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   21  minikube start --driver=virtualbox
+   22  kubectl
+   23  minikube kubectl -- get pods -A
+   24  kubectl
+   25  sudo apt-get install kubectl -y
+   26  snap install kubectl
+   27  sudo snap install kubectl
+   28  sudo snap install kubectl —classic
+   29  sudo snap install kubectl --classic
+   30  kubectl
+   31  kubectl get nodes
+   32  ls
+   33  df -h
+   34  / df -h
+   35  df -h /
+   36  df
+   37  df-h
+   38  df -h
+   39  sudo reboot
+   40  apt list --upgradable
+   41  kubectl
+   42  minikube start --driver=virtualbox
+   43  kubectl
+   44  kubectl get nodes
+   45  sudo shutdown -h now
+   46  minikube start --driver=virtualbox
+   47  minikube delete
+   48  minikube start --driver=virtualbox
+   49  kubectl get all
+   50  ip ad sh | grep 192
+   51  ls
+   52  cd Demo_Project/
+   53  ls
+   54  kubectl apply -f mongo-secret.yaml 
+   55  pwd
+   56  history >> listing-all-commands.txt
